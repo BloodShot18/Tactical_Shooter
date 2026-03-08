@@ -1,0 +1,13 @@
+{
+  "name": "tactical-shooter",
+  "version": "1.0.0",
+  "description": "5v5 Tactical Mobile Shooter",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=@tactical-shooter/server"
+  }
+}

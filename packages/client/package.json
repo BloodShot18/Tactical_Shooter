@@ -1,0 +1,19 @@
+{
+    "name": "@tactical-shooter/client",
+    "version": "1.0.0",
+    "description": "Phaser Game Client for Tactical Shooter",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "colyseus.js": "^0.15.0",
+        "phaser": "^3.70.0",
+        "phaser3-rex-plugins": "^1.80.19"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "vite": "^5.0.0"
+    }
+}
